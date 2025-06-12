@@ -13,26 +13,26 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-  "Não",
-  "Tem certeza?",
-  "Certeza mesmo?",
-  "Pensa de novo!",
-  "Última chance!",
-  "Tem certeza que não?",
-  "Você pode se arrepender!",
-  "Reconsidera, vai!",
-  "Você tem absoluta certeza?",
-  "Isso pode ser um erro!",
-  "Tenha um pouco de compaixão!",
-  "Não seja tão frio(a)!",
-  "Mudou de ideia?",
-  "Não quer repensar isso?",
-  "É sua resposta final?",
-  "Você tá partindo meu coração ;(",
-  "É sua resposta final mesmo?",
-  "Você tá partindo meu coração ;(",
-  "Por favoooor? :( Meu coração não aguenta",
-];
+      "Não",
+      "Tem certeza?",
+      "Certeza mesmo?",
+      "Pensa de novo!",
+      "Última chance!",
+      "Tem certeza que não?",
+      "Você pode se arrepender!",
+      "Reconsidera, vai!",
+      "Você tem absoluta certeza?",
+      "Isso pode ser um erro!",
+      "Tenha um pouco de compaixão!",
+      "Não seja tão frio(a)!",
+      "Mudou de ideia?",
+      "Não quer repensar isso?",
+      "É sua resposta final?",
+      "Você tá partindo meu coração ;(",
+      "É sua resposta final mesmo?",
+      "Você tá partindo meu coração ;(",
+      "Por favoooor? :( Meu coração não aguenta",
+    ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
@@ -80,22 +80,7 @@ export default function Page() {
           </div>
         </>
       )}
-      <Footer />
     </div>
   );
 }
 
-const Footer = () => {
-  return (
-    <a
-      className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
-      target="__blank"
-    >
-      Made with{" "}
-      <span role="img" aria-label="heart">
-        ❤️
-      </span>
-    </a>
-  );
-};
