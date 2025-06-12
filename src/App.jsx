@@ -13,26 +13,26 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
-    ];
+  "Não",
+  "Tem certeza?",
+  "Certeza mesmo?",
+  "Pensa de novo!",
+  "Última chance!",
+  "Tem certeza que não?",
+  "Você pode se arrepender!",
+  "Reconsidera, vai!",
+  "Você tem absoluta certeza?",
+  "Isso pode ser um erro!",
+  "Tenha um pouco de compaixão!",
+  "Não seja tão frio(a)!",
+  "Mudou de ideia?",
+  "Não quer repensar isso?",
+  "É sua resposta final?",
+  "Você tá partindo meu coração ;(",
+  "É sua resposta final mesmo?",
+  "Você tá partindo meu coração ;(",
+  "Por favoooor? :( Meu coração não aguenta",
+];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
