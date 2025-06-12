@@ -69,13 +69,13 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >
-              Yes
+              Sim
             </button>
             <button
               onClick={handleNoClick}
               className=" bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Não" : getNoButtonText()}
             </button>
           </div>
         </>
